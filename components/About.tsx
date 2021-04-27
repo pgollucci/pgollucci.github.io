@@ -8,10 +8,10 @@ const About = (): ReactElement =>(
           <div className="mx-auto"><img className="w-64 h-48 rounded-2xl" src="/animal.jpg" /></div>
           <div className="mx-auto"><img className="w-64 h-12 rounded-2xl" src="/ldar.png" /></div>
         </div>
-        <div className="mt-2 prose-sm prose">
-          <h4>Part of a mixed paid/volunteer team responsible for saving cats and dogs all over the world. Over 20k dogs and cats have been saved from over 10 states and 5 countries since 2009.</h4>
+        <div className="mt-2 prose">
+            <h4>Fostered over 200 dogs.</h4>
           <ul>
-            <li>Fostered over 200 dogs.</li>
+            <li>Part of a volunteer team responsible for saving cats and dogs all over the world. Over 20k dogs and cats have been saved from over 10 states and 5 countries since 2009.</li>
             <li>Represented Lucky Dog Animal Rescue at AWS Worldwide Public Sector Summit in 2019.</li>
             <li>1st place national fund-raising team for Best Friends Society.</li>
             <li>National crisis response to all US hurricanes in 2018.</li>
@@ -25,11 +25,10 @@ const About = (): ReactElement =>(
         <div className="h-64">
           <img className="h-48 mx-auto w-96" src="/awscb.png" />
         </div>
-        <div className="mt-2 prose-sm prose">
+        <div className="mt-2 prose">
           <h4 className="text-center">
-            One of only ~800 World Wide in this VIP AWS Program.<br />
-            DevTools (63)<br />
-            Management, Migration & Governance (71)</h4>
+            One of ~800 World Wide in this VIP AWS Program.
+          </h4>
           <ul>
             <li>Lead winning (1st place) World Wide Public Sector Team, May 2020</li>
             <li>Placed in the top 0.001% of AWS Challenges at Worldwide Public Sector AWS Summit June 30, 2020</li>
@@ -45,8 +44,8 @@ const About = (): ReactElement =>(
         <div className="h-64">
           <img className="mx-auto h-38" src="/fbsd.jpg" />
         </div>
-        <div className="mt-2 prose-sm prose">
-          <h4>18th most prolific FreeBSD ports committer World Wide.</h4>
+        <div className="mt-2 prose">
+          <h4>18th most changes to FreeBSD ports World Wide.</h4>
           <ul>
             <li>Instrumental in Apache Software Foundation, ruby, and perl ports</li>
           </ul>
@@ -56,9 +55,10 @@ const About = (): ReactElement =>(
         <div className="h-64">
           <img className="mx-auto" src="/asf.png" />
         </div>
-        <div className="mt-2 prose-sm prose">
+        <div className="mt-2 prose">
           <h4>Vice President of Apache Software Foundation Infrastructure (World Wide)</h4>
           <ul>
+            <li className="prose-lg">THE WORLD'S LARGEST OPEN SOURCE FOUNDATION</li>
             <li>Held root@ for 4yrs</li>
             <li>Managed Global Infrastructure Budget, Data Centers, and Staff</li>
             <li>Project Management Committee: httpd, apr, apreq, mod_perl</li>
