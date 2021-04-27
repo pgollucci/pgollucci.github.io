@@ -11,20 +11,21 @@ const project = new web.NextJsTypeScriptProject({
 
   defaultReleaseBranch: 'main',
 
-  devDeps: [
+  deps: [
     "@headlessui/react",
     "@heroicons/react",
+    "@tailwindcss/ui",
     "@tailwindcss/forms",
     "@tailwindcss/typography",
-    "@tailwindcss/ui",
+    "tailwindcss",
+  ],
+  devDeps: [
     "@types/js-yaml",
     "@types/geopattern",
-    "geopattern",
     "js-yaml",
-    "tailwindcss",
-    "next-compose-plugins",
-    "next-optimized-images",
-  ]
+    "geopattern",
+  ],
+
 });
 
 project.synth();

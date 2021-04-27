@@ -1,26 +1,6 @@
 {
   "dependencies": [
     {
-      "name": "@headlessui/react",
-      "type": "build"
-    },
-    {
-      "name": "@heroicons/react",
-      "type": "build"
-    },
-    {
-      "name": "@tailwindcss/forms",
-      "type": "build"
-    },
-    {
-      "name": "@tailwindcss/typography",
-      "type": "build"
-    },
-    {
-      "name": "@tailwindcss/ui",
-      "type": "build"
-    },
-    {
       "name": "@types/geopattern",
       "type": "build"
     },
@@ -50,14 +30,6 @@
       "type": "build"
     },
     {
-      "name": "next-compose-plugins",
-      "type": "build"
-    },
-    {
-      "name": "next-optimized-images",
-      "type": "build"
-    },
-    {
       "name": "projen",
       "version": "^0.17.66",
       "type": "build"
@@ -68,12 +40,28 @@
       "type": "build"
     },
     {
-      "name": "tailwindcss",
+      "name": "typescript",
       "type": "build"
     },
     {
-      "name": "typescript",
-      "type": "build"
+      "name": "@headlessui/react",
+      "type": "runtime"
+    },
+    {
+      "name": "@heroicons/react",
+      "type": "runtime"
+    },
+    {
+      "name": "@tailwindcss/forms",
+      "type": "runtime"
+    },
+    {
+      "name": "@tailwindcss/typography",
+      "type": "runtime"
+    },
+    {
+      "name": "@tailwindcss/ui",
+      "type": "runtime"
     },
     {
       "name": "autoprefixer",
@@ -93,6 +81,10 @@
     },
     {
       "name": "react-dom",
+      "type": "runtime"
+    },
+    {
+      "name": "tailwindcss",
       "type": "runtime"
     },
     {
