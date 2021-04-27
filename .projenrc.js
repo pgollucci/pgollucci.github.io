@@ -14,7 +14,6 @@ const project = new web.NextJsTypeScriptProject({
     "geopattern",
     "js-yaml",
     "tailwindcss",
-    "tailwindcss-intellisense",
     "next-compose-plugins",
     "next-optimized-images",
   ]

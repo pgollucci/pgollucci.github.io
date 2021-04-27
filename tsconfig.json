@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
+    "rootDir": "pages",
     "outDir": "lib",
     "alwaysStrict": true,
     "declaration": true,
@@ -36,8 +36,9 @@
     "noEmit": true
   },
   "include": [
-    "pages/**/*.tsx",
-    "components/**/*.tsx",
+    "pages/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules",
