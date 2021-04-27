@@ -10,8 +10,8 @@ interface IProps {
 const Layout = ({ children }: IProps) =>(
   <>
     <Header />
-    <div className="flex flex-row min-h-screen">
-      <div className="">
+    <div className="flex min-h-screen lg:flex-col sm:flex-row">
+      <div>
         <Nav />
       </div>
       <div className="flex flex-col w-full">

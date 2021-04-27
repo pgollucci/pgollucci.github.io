@@ -2,9 +2,9 @@ import React, { ReactElement } from "react";
 
 const articles: ArticleProps[] = [
     { src: '/pj.png', title: 'Projen: The Next CDK Surprise!', blurb: 'State of the Union Why projen That\'s a really good question, isn\'t it? After all, there is a new templator or scaffolder practically daily.', categories: [ 1, 5, 34 ], url: '#' },
-    { title: 'Est elit et irure ullamco aliqua anim anim commodo irure id sint fugiat quis ea.', blurb: 'Exercitation cupidatat dolore et occaecat proident.', categories: [ 19 ], url: '#' },
-    { title: 'Id laborum ex qui dolor voluptate sint in pariatur ea.', blurb: 'Quis ullamco pariatur laborum non occaecat.', categories: [ 80, 81, 82 ], url: '#' },
-    { title: 'Id laborum ex qui dolor voluptate sint in pariatur ea.', blurb: 'Quis ullamco pariatur laborum non occaecat.', categories: [ 80, 81, 82 ], url: '#' },
+    { src: '/pj.png', title: 'Est elit et irure ullamco aliqua anim anim commodo irure id sint fugiat quis ea.', blurb: 'Exercitation cupidatat dolore et occaecat proident.', categories: [ 19 ], url: '#' },
+     {src: '/pj.png', title: 'Id laborum ex qui dolor voluptate sint in pariatur ea.', blurb: 'Quis ullamco pariatur laborum non occaecat.', categories: [ 80, 81, 82 ], url: '#' },
+    { src: '/pj.png', title: 'Id laborum ex qui dolor voluptate sint in pariatur ea.', blurb: 'Quis ullamco pariatur laborum non occaecat.', categories: [ 80, 81, 82 ], url: '#' },
 ];
 
 export interface ArticleProps {
