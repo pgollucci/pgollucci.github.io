@@ -3,6 +3,12 @@ const { web } = require('projen');
 const project = new web.NextJsTypeScriptProject({
   name: 'pgollucci.github.io',
 
+  tsconfig: {
+    compilerOptions: {
+      rootDir: '.',
+    }
+  },
+
   defaultReleaseBranch: 'main',
 
   devDeps: [
