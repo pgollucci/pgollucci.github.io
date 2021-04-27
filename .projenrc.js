@@ -17,6 +17,7 @@ const project = new web.NextJsTypeScriptProject({
     "@tailwindcss/forms",
     "@tailwindcss/typography",
     "@tailwindcss/ui",
+    "@types/js-yaml",
     "geopattern",
     "js-yaml",
     "tailwindcss",
