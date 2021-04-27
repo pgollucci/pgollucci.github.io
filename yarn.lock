@@ -236,6 +236,11 @@
     hex-rgb "^4.1.0"
     postcss-selector-parser "^6.0.2"
 
+"@types/geopattern@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@types/geopattern/-/geopattern-1.2.4.tgz#09b82e458de4161300929295941fbbbf6aa517e5"
+  integrity sha512-poODuKTzhlwmd5oHYPm01zjJ1ExFdUQcDPcbNtCIC7b125OPSIwLj6or4xc4WMCZyDsjSsP/8472diGGiSMkxw==
+
 "@types/js-yaml@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.1.tgz#5544730b65a480b18ace6b6ce914e519cec2d43b"

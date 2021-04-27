@@ -21,6 +21,10 @@
       "type": "build"
     },
     {
+      "name": "@types/geopattern",
+      "type": "build"
+    },
+    {
       "name": "@types/js-yaml",
       "type": "build"
     },
