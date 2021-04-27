@@ -17,7 +17,7 @@ const Nav = (): ReactElement => (
           key={item.name}
           href={item.href}
           className={classNames(
-            item.current ? 'bg-gray-300 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900',
+            item.current ? 'bg-blue-300 text-gray-900' : 'text-gray-600 hover:bg-blue-300 hover:text-gray-900',
             'flex items-center px-3 py-2 text-2xl font-medium rounded-md'
           )}
           aria-current={item.current ? 'page' : undefined}

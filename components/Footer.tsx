@@ -12,7 +12,7 @@ const social = [
 const Footer = (): ReactElement => (
     <>
       <footer className="w-full">
-        <div className="pt-8 mt-8 border-t border-gray-700">
+        <div className="p-4 m-4 border-t border-gray-700">
           <div className="flex justify-end space-x-6">
           {
             social.map((item) => (
