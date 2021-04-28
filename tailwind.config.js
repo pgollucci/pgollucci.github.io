@@ -32,9 +32,5 @@ module.exports = {
   colors: {
     primary: '#51c4d3',
     secondary: '#004e89',
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
   },
 }
