@@ -20,32 +20,21 @@ const Article = (article: ArticleProps): ReactElement => {
   return (
     <div className="flex flex-col w-full overflow-hidden rounded-lg shadow-lg">
       <div className="flex-shrink-0 h-48 ml-20">
-        <a href={article.url}>
-          <img className="h-48" src={article.src} />
-        </a>
+        <a href={article.url}><img className="h-48" src={article.src} /></a>
       </div>
       <div className="flex flex-col justify-between flex-1 p-6 bg-white">
         <div className="flex-1">
           <a href={article.url} className="block">
-            <h3 className="prose-lg">
-              {article.title}
-            </h3>
-            <p className="mt-3 text-base leading-6 text-gray-500">
-              {article.blurb}
-            </p>
+            <h3 className="prose-lg">{article.title}</h3>
+            <p className="mt-3 text-base leading-6 text-gray-500">{article.blurb}</p>
           </a>
         </div>
-        {
-          <div className="mt-4">
-            {
-                article.categories.map(category =>
-                    <span key={category} className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-indigo-100 text-indigo-800 mr-2">
-                        {category}
-                    </span>
-                )
-            }
-          </div>
-        }
+        {<div className="mt-4">
+            {article.categories.map(category =>
+              <span key={category} className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-indigo-100 text-indigo-800 mr-2">
+                {category}
+              </span>)}
+          </div>}
         </div>
       </div>
     )

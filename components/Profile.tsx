@@ -8,7 +8,7 @@ const Profile = (): ReactElement =>(
         <h2 className="p-1 font-bold prose prose-xl text-center">CEO | CTO | CIO | CDO</h2>
         <h3 className="p-2 prose prose-xl text-center">Amazon Community Builder</h3>
         <h4 className="p-2 prose text-center underline">pgollucci@p6m7g8.com</h4>
-        <h5 className="p-2 text-base prose-sm prose text-center underline"><a href="https://calendly.com/pgollucci">Schedule a chat</a></h5>
+        <h4 className="p-2 text-base prose-sm prose text-center underline"><a href="https://calendly.com/pgollucci">Schedule a chat</a></h4>
       </div>
       <div className="w-1/2 mt-2">
         <img className="rounded-full shadow-2xl max-h-72" src="/me.jpg" alt="Philip M. Gollucci" />

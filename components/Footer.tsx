@@ -16,8 +16,8 @@ const Footer = (): ReactElement => (
           <div className="flex space-x-6 justify-begin">
           {
             social.map((item) => (
-              <span>
-                <a className="hover:text-blue-500" key={item.name} href={item.href}>{item.name}</a>
+              <span key={item.name}>
+                <a className="hover:text-blue-500" href={item.href}>{item.name}</a>
               </span>
             ))
           }
